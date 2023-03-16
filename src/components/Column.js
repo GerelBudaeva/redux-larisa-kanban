@@ -4,7 +4,6 @@ import Tasks from './Tasks';
 
 const Column = (props) => {
     return (
-
         <div className="col">
             <h2>{props.status.title.toUpperCase()}</h2>
             {props.tasks.filter(el => props.status.title === el.status).map(task => <Tasks
@@ -13,7 +12,6 @@ const Column = (props) => {
                 />
             )}
         </div>
-
     );
 };
 

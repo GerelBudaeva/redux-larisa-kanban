@@ -9,7 +9,7 @@ function App(props) {
         <div className="App">
             <h1>{props.appName}</h1>
 
-            <ModalWindow buttonLabel='Create Task' buttonStyle='btn btn-outline-info' modalTitle='Create'/>
+            <ModalWindow buttonLabel='Create Task' buttonStyle='btn btn-outline-info' modalTitle="Create"/>
 
             <div className="container text-center">
                 <div className="row align-items-start">
